@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Julianna Eng</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/prof.png">
+</head>
+
+<audio src="../music/scene1/background.mp3" autoplay="autoplay" loop="loop"> </audio>
+
+<div>
+<img src="../gifs/moving/swirl.gif" class="centerlandscape" width="1422" id="inside1"
+  height="702">
+</div>
+
+<div>
+<img src="../gifs/stagnant/choice5.gif" class="centerlandscape" usemap="#inside2" width="1422" id="inside2"
+height="702">
+
+<map name="inside2">
+  <area shape="rect" coords="153.9, 174.6, 342.45, 298.8" href="preinside.html">
+  <area shape="rect" coords="1092.15, 504.90000000000003, 1273.5, 661.95" href="preinside.html">
+</map>
+</div>
+
+</div>
+<br>
+
+<script type="text/javascript">
+
+setTimeout(function(){
+  document.getElementById('inside1').style.display = 'block';
+},1000);
+
+setTimeout(function(){
+  document.getElementById("inside1").style.display = "none";
+  document.getElementById("inside2").style.display = "block";
+},18000)
+
+</script>
+</html>

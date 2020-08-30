@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Julianna Eng</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/prof.png">
+</head>
+
+<audio src="../music/scene1/background.mp3" autoplay="autoplay" loop="loop"> </audio>
+
+<div>
+<img src="../gifs/moving/turn.gif" class="centerlandscape" width="1422" id="walk1"
+  height="702">
+</div>
+
+<div>
+<img src="../gifs/stagnant/okay.gif" class="centerlandscape" usemap="#secondchoice" width="1422" id="walk2"
+height="702">
+
+<map name="secondchoice">
+  <area shape="rect" coords="813.6, 327.6, 902.7, 391.95" href="rest.html">
+</map>
+</div>
+
+</div>
+<br>
+
+<script type="text/javascript">
+
+setTimeout(function(){
+  document.getElementById('walk1').style.display = 'block';
+},2000);
+
+setTimeout(function(){
+  document.getElementById("walk1").style.display = "none";
+  document.getElementById("walk2").style.display = "block";
+},5000)
+
+</script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Julianna Eng</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/prof.png">
+    <audio src="../music/scene1/background2.mp3" autoplay="autoplay" loop="loop"> </audio>
+
+
+    <div class="slideshow-container">
+
+      <div>
+      <img src="../gifs/moving/intro.gif" class="centerportrait" width="576" id="door"
+        height="768">
+    </div>
+
+     <div>
+    <img src="../gifs/stagnant/choice1.gif" class="centerportrait" usemap="#firstchoice" width="576"
+    id="door2"  height="768">
+
+    <map name="firstchoice">
+        <area shape="rect" coords="237.0, 675.75, 81.75, 574.5" href="beginscene.html">
+        <area shape="rect" coords="290.25, 559.125, 450.75, 671.625" href="beginscene.html">
+    </map>
+    </div>
+
+    </div>
+    <br>
+
+      <script type="text/javascript">
+
+      setTimeout(function(){
+        document.getElementById('door').style.display = 'block';
+      },2000);
+
+      setTimeout(function(){
+        document.getElementById("door").style.display = "none";
+        document.getElementById("door2").style.display = "block";
+      },20000)
+
+    </script>
+</html>

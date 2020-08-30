@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Julianna Eng</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href=".../img/prof.png">
+<audio src="../../music/scene1/background2.mp3" autoplay="autoplay" loop="loop"> </audio>
+
+
+      <div>
+      <img src="../../gifs/moving/thepast.gif" class="centerlandscape" width="921.6" id="past1"
+        height="691.2">
+    </div>
+
+     <div>
+    <img src="../../gifs/stagnant/choice4.gif" class="centerlandscape" usemap="#fourthchoice" width="921.6" id="past2"
+      height="691.2">
+
+    <map name="fourthchoice">
+        <area shape="rect" coords="152.1, 362.25, 300.6, 472.95" href="falling.html">
+        <area shape="rect" coords="538.2, 77.4, 623.7, 188.1" href="../rest.html">
+    </map>
+    </div>
+
+    </div>
+    <br>
+
+      <script type="text/javascript">
+
+      setTimeout(function(){
+        document.getElementById('past1').style.display = 'block';
+      },2000);
+
+      setTimeout(function(){
+        document.getElementById("past1").style.display = "none";
+        document.getElementById("past2").style.display = "block";
+      },25000)
+
+    </script>
+</html>

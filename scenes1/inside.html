@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Julianna Eng</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../img/prof.png">
+</head>
+
+<audio src="../music/scene1/background.mp3" autoplay="autoplay" loop="loop"> </audio>
+
+<div>
+<img src="../gifs/moving/wall.gif" class="centerlandscape" width="1422" id="walk1"
+  height="702">
+</div>
+
+<div>
+<img src="../gifs/stagnant/intothehole.gif" class="centerlandscape" usemap="#secondchoice" width="1422" id="walk2"
+height="702">
+
+<map name="secondchoice">
+  <area shape="rect" coords="572.4, 326.7, 667.8000000000001, 385.65000000000003" href="train.html">
+  <area shape="rect" coords="780.75, 324.45, 903.6, 391.95" href="train.html">
+</map>
+</div>
+
+</div>
+<br>
+
+<script type="text/javascript">
+
+setTimeout(function(){
+  document.getElementById('walk1').style.display = 'block';
+},2000);
+
+setTimeout(function(){
+  document.getElementById("walk1").style.display = "none";
+  document.getElementById("walk2").style.display = "block";
+},14500)
+
+</script>
+</html>

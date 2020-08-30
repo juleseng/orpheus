@@ -1,0 +1,96 @@
+html {
+    background:#f4f4f4
+}
+
+.row > div,.container {
+    transition:all .25s ease-in-out;
+    -moz-transition:all .25s ease-in-out;
+    -o-transition:all .25s ease-in-out;
+    -webkit-transition:all .25s ease-in-out
+}
+
+body {
+    font-family:Lato,sans-serif
+}
+
+.wrapper {
+    background:#f5f5f5
+}
+
+.content-inner {
+    /* background:#fff */
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    margin:0 0 1em;
+    padding:0
+}
+
+a {
+    cursor:pointer;
+    text-decoration:none!important;
+    transition:all .25s ease-in-out;
+    -moz-transition:all .25s ease-in-out;
+    -o-transition:all .25s ease-in-out;
+    -webkit-transition:all .25s ease-in-out
+}
+
+.inline-block {
+    display:inline-block
+}
+
+
+
+.intro span {
+    font-weight:100
+}
+
+/* Grid List  */
+.grid-list-wrapper {
+    margin:0 0 4em
+}
+
+.grid-list {
+    /* background:#fff; */
+    margin:0 0 3em
+}
+
+.grid-list img {
+    width:100%;
+    height:auto
+}
+
+.overlay a {
+    color:#222;
+    padding:1em 2em;
+    display:block;
+}
+
+.overlay h2 {
+    font-size:1.2em;
+    line-height:1.35em;
+    margin:0;
+    padding:.5em 0
+}
+
+.overlay h3 {
+    display:none;
+    padding:0;
+    font-size:1.2em;
+    line-height:1em
+}
+
+.overlay span {
+    text-transform:uppercase;
+    font-weight:100;
+    margin-right:1em
+}
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+.wrapper {
+    padding:0 0 5em;
+    clear:both
+}
+}

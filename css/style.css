@@ -1,0 +1,152 @@
+@font-face { font-family: CallingCode; src: url("../fonts/CallingCode-Regular.ttf"); }
+
+#main {
+    font-size:26px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "CallingCode";
+    padding-top: 100px;
+
+}
+#main-2 {
+    font-size:30px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "CallingCode";
+
+}
+
+#main-3 {
+    font-size: 26px;
+    color: #848484;
+    text-decoration: none;
+  }
+
+  #main-4 {
+      font-size: 26px;
+      color: #000000;
+      text-decoration: none;
+    }
+
+  .navbar a:hover {
+    text-decoration-color: #848484;
+    color: #848484;
+  }
+
+  .navbar a.active {
+    background-color: #848484;
+    color: #848484;
+  }
+.row {
+    display: flex;
+  }
+
+.column {
+  flex: 50%;
+}
+
+.navbar {
+  display: block;
+  background-color: none;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+  padding: 20px;
+}
+
+/* door 2 */
+
+#door2 {
+  display: none;
+}
+
+#past2 {
+  display: none;
+}
+
+#walk2 {
+  display: none;
+}
+
+#falling2 {
+  display: none;
+}
+
+#mirror2 {
+  display: none;
+}
+
+#swirl2 {
+  display: none;
+}
+
+#inside2 {
+  display: none;
+}
+
+/* Change the color of links on hover */
+
+
+.wiggle {
+  width: 20%;
+  height: 50%;
+  padding-top: 200px
+}
+
+
+.column-about {
+  float: none;
+  text-align: center;
+}
+
+.column-about-wiggle {
+  float: left;
+}
+
+html {
+    background:#ffffff
+}
+
+/*centering the image*/
+
+.centerportrait {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.centerlandscape {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+}
+
+.indexlandscape {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  padding-left: 275px;
+}
+
+/* the splicing gifs*/
+
+/*
+
+
+/* no hyperlink for the images*/
+
+a img {
+  border: none;
+}
+
+area {
+  outline: none;
+}

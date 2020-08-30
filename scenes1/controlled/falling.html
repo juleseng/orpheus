@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Julianna Eng</title>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="../../img/prof.png">
+</head>
+<audio src="../../music/scene1/background.mp3" autoplay="autoplay" loop="loop"> </audio>
+
+
+<div>
+<img src="../../gifs/moving/falling.gif" class="centerlandscape" width="1422" id="falling1"
+  height="702">
+</div>
+
+<div>
+<img src="../../gifs/stagnant/fallingchoice.gif" class="centerlandscape" usemap="#fallingchoice" width="1422" id="falling2"
+height="702">
+
+<map name="fallingchoice">
+  <area shape="rect" coords="480.6, 330.3, 589.0500000000001, 389.25" href="../autonomy/rain.html">
+  <area shape="rect" coords="458.55, 430.2, 565.2, 507.15000000000003" href="../swirl.html">
+</map>
+</div>
+
+</div>
+<br>
+
+<script type="text/javascript">
+
+setTimeout(function(){
+  document.getElementById('falling1').style.display = 'block';
+},2000);
+
+setTimeout(function(){
+  document.getElementById("falling1").style.display = "none";
+  document.getElementById("falling2").style.display = "block";
+},8000)
+
+</script>
+</html>
